@@ -478,7 +478,7 @@ img {
   width: 100%;
   height: 500px;
   object-fit: cover;
-  background: url("https://img.freepik.com/free-psd/close-up-hamburger-isolated_23-2151604186.jpg?t=st=1742657029~exp=1742660629~hmac=0dce3b9e84b0e34ac76986bd10cfbc23f1cf65566346e62dc558fd5bb3c84f05&w=826")
+  background: url("https://stories.inspirebrands.com/wp-content/uploads/2023/04/AllAmericanBurger_MF12.jpg")
     center/cover no-repeat;
 }
 
@@ -675,7 +675,7 @@ img {
   height: 220px;
   width: 100%;
   object-fit: cover;
-  background: url("https://img.freepik.com/free-psd/close-up-hamburger-isolated_23-2151604186.jpg?t=st=1742657029~exp=1742660629~hmac=0dce3b9e84b0e34ac76986bd10cfbc23f1cf65566346e62dc558fd5bb3c84f05&w=826")
+  background: url("https://burgerurge.com.au/wp-content/uploads/2022/05/Cali_Stax_Triple_400x400px.jpg")
     center/cover no-repeat;
   position: relative;
 }
@@ -760,7 +760,6 @@ img {
   position: relative;
   overflow: hidden;
 }
-
 .special::before {
   content: "";
   position: absolute;
@@ -768,7 +767,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://img.freepik.com/free-psd/close-up-hamburger-isolated_23-2151604186.jpg?t=st=1742657029~exp=1742660629~hmac=0dce3b9e84b0e34ac76986bd10cfbc23f1cf65566346e62dc558fd5bb3c84f05&w=826")
+  background: url("https://static.vecteezy.com/system/resources/previews/019/199/710/original/bubble-milk-tea-pearl-milk-tea-png.png")
     center/cover no-repeat;
   opacity: 0.15;
 }
@@ -895,7 +894,7 @@ img {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
- 
+
 /* Order Section */
 .order {
   padding: var(--spacing-xl) 0;
@@ -1061,98 +1060,3 @@ img {
 .footer-bottom a {
   color: var(--secondary);
 }
-
-/* Responsive Design */
-@media (max-width: 1200px) {
-  .hero-title {
-    font-size: 3.5rem;
-  }
-
-  .section-title,
-  .menu-title,
-  .special-title,
-  .testimonial-title {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 992px) {
-  .nav-menu {
-    display: none;
-  }
-
-  .mobile-toggle {
-    display: block;
-  }
-
-  .hero-title {
-    font-size: 3rem;
-  }
-
-  .about-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
-  }
-
-  .about-image {
-    order: -1;
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .special-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-lg);
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 2.5rem;
-  }
-
-  .section-title,
-  .menu-title,
-  .special-title,
-  .testimonial-title {
-    font-size: 2.2rem;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-  }
-
-  .menu-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .menu-tabs {
-    flex-direction: column;
-    gap: var(--spacing-sm);
-    align-items: center;
-  }
-
-  .footer-grid {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-lg);
-  }
-}
-
-@media (max-width: 576px) {
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .about-features {
-    grid-template-columns: 1fr;
-  }
-
-  .special-item-header {
-    flex-direction: column;
-    gap: var(--spacing-xs);
-  }
